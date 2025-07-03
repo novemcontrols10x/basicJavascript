@@ -3,6 +3,13 @@ let company = "novemomenosunorm is a company"
 
 // const newStr = company.split('')
 
+// "" , '${7+8}' , `${7+8}`
+
+
+// letvjvvvvvvy
+// 'jfjcjvfjff 7+8'
+// `${7+8} nthjvjv mhvjh ${con}`
+
 // console.log(newStr)
 
 // console.log(company.slice(0,9))

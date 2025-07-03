@@ -4,6 +4,11 @@ let isStudent = true
 let salery
 let value = null
 
+// let var const 
+
+// var = global and functional scope, 
+// const , let === block level
+
 
 var fruites = ['apple', 'banana', 'papaya', 4747, true, null, ['avinash']]
 
@@ -30,6 +35,7 @@ console.log(obj.addrss.state)
 
 
 // array 
+
 
 
 
