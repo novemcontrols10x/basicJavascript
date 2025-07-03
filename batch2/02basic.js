@@ -69,3 +69,5 @@ console.log(age.toString())
 // console.log(newStr)
 console.log(company.repeat(4))
 
+
+
