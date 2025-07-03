@@ -12,6 +12,10 @@
 // }
 
 
+let isButtonON = false
+
+const color = isButtonON ? 'white' : 'dark'
+console.log(color)
 
 
 // make a grade checking code
@@ -30,4 +34,5 @@ switch (weather) {
         console.log('no data')
         break;
 }
+
 
