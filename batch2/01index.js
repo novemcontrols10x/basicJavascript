@@ -10,6 +10,8 @@ let value = null
 // const , let === block level
 
 
+
+
 var fruites = ['apple', 'banana', 'papaya', 4747, true, null, ['avinash']]
 
 
@@ -21,6 +23,7 @@ let obj = {
         state:'punjab'
     }
 }
+
 console.log(fruites[5])
 console.log(obj.addrss.state)
 

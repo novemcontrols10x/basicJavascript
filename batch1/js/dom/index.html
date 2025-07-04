@@ -23,13 +23,16 @@
     const list = document.querySelector('ul')
 
     btn.addEventListener('click', () => {
-        console.log(input.value.trim())
+       
+
         if(input.value.trim() === ""){
             return
         }
 
+
         const task = document.createElement('li')
         task.innerHTML = ` ${input.value}  <button>X</button>` 
+    
 
         list.prepend(task)
         input.value = ''
@@ -37,12 +40,17 @@
     })
 
     list.addEventListener('click',(e)=>{
-        console.log(e)
-        <!--  check the event target is button ? it will remove its parent from the list  -->
+        if(e.target.tagName === 'BUTTON'){
+            e.target.parentNode.remove()
+        }
     })
 
 
-    <!-- make a todo list  which is going to show the  task and there should be a x button on each list  -->
+    // btn ✔ that make the color of the li into green
+    // diff types of events click, dblclick,keydown  !
+
+
+    //resume builder.. input,, name, skill, education, projects, bio, 
 
 
 </script>

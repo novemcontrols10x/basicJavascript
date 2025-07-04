@@ -12,24 +12,25 @@
 // }
 
 
-let isButtonON = false
+// let isButtonON = false
 
-const color = isButtonON ? 'white' : 'dark'
-console.log(color)
+// const color = isButtonON ? 'white' : 'dark'
+// console.log(color)
 
 
 // make a grade checking code
 
-let weather = 'cloudy'
+let weather = 'dry'
 
 switch (weather) {
+
     case "dry":
         console.log('take botlte')
         break;
     case "rainy":
         console.log('take umbrella')
         break;
-
+        
     default:
         console.log('no data')
         break;

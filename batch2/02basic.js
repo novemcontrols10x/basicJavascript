@@ -40,7 +40,7 @@
 
 
 // // console.log("aviansh" + "kumar")
-// // console.log('novem' + 2999)
+ console.log('hgdgfjgsd' - 2999)
 // // console.log('novem' + true)
 // // console.log('novem' + undefined)
 // // console.log('novem' + null)

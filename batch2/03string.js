@@ -20,3 +20,4 @@ let company = "novemomenosunorm is a company"
 // console.log(newstr.toUpperCase())
 
 // object method 
+
